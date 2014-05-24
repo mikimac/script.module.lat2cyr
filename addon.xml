@@ -11,13 +11,12 @@
 			 library="lib" />
 	<extension point="xbmc.addon.metadata">
 	<summary lang="en">Lat2Cyr</summary>
-    <description lang="en">Convert latin letters to cyrillic letters</description>
-    <disclaimer lang="en"></disclaimer>
-    <platform>all</platform>
+	<language></language>
+    <description lang="en">Lat2Cyr convert text files or subtitles from latin to cyrillic characters. Program will try to autodetect encoding type of file between UTF-8 and CP1250 (Windows-1250) and create utf8 cyrillic file</description>
     <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
-    <forum></forum>
-    <website></website>
-    <email></email>
+    <platform>all</platform>
+    <website>https://github.com/mikimac/script.module.lat2cyr</website>
     <source>https://github.com/mikimac/script.module.lat2cyr</source>
+    <forum></forum>
 	</extension>
 </addon>
